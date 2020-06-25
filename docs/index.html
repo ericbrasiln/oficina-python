@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Oficina - Historiadores rodando Python.</title>
+
+		<meta name="description" content="Apresentação para a oficina do Labhd-Ufba - 2020-06-26">
+		<meta name="author" content="Eric Brasil">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<a href="https://github.com/ericbrasiln/Anais-Anpuh">
+						<img src="imagens/logo-py.png" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h1>Historiadores rodando Python!?</h1>
+					<p>Uma Introdução</p>
+					<p>
+						<small><a href="http://ericbrasiln.github.io">Eric Brasil</a>  <a href="http://historia.males.unilab.edu.br/">(UNILAB/Malês)</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Entre em contato</h2>
+					<p>
+						E-mail: profericbrasil@gmail.com
+					</p>
+					<p>
+						Visite meu<a href="http://ericbrasiln.github.io"> site</a>...
+					</p>
+					<p>
+						e siga no<a href="http://teitter.com/ericbrasiln"> Twitter</a>!
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2><em>Brevíssima</em> apresentação do Python</h2>
+						<p>Linguagem de programação: intérprete entre o usuário e o computador.</p>
+						<p>Algorítmos, scripts, etc etc etc etc</p>
+						<br>
+						<a href="#" class="navigate-down"></a>
+					</section>
+					<section>
+						<h3>Extras</h3>
+						<p><a href='https://www.youtube.com/user/cursosemvideo'>Curso em Vídeo</a> no YouTube</p>
+						<p><a href='https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6'>Curso de Python 3</a> básico.</p>
+					</section>					
+				</section>
+
+				<section>
+					<section>
+						<h2>Instalando o Python no Windows</h2>
+						<p>Não vem instalado, como no Mac ou Linux</p>
+						<p>Podemos testar pra saber se há alguma versão de Python instalada no seu Windows</p>
+						<br>
+						<a href="#" class="navigate-down"></a>
+					</section>
+
+					<section>
+						<img src="imagens/screenshot01.png" style="background: none; border: none; box-shadow: none">
+						<ul>
+							<li>Busque por "prompt de comando"</li>							
+						</ul>
+					</section>	
+					
+					<section data-auto-animate>
+						<h3 data-id="code-title">Python tá instalado?</h3>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+							python --version
+						</code></pre>
+						<p>Digite no terminal e tecle ENTER</a>.</p>
+					</section>
+
+					<section>
+						<img src="imagens/screenshot03.png" style="background: none; border: none; box-shadow: none">						
+					</section>
+
+					<section>
+						<h3>Baixando o Python</h3>
+						<img src="imagens/ss-01.png" style="background: none; border: none; box-shadow: none">
+						<p>Abra o navegador e busque "python download"</p>
+						<p>Ou simplesmente, <a href="https://www.python.org/downloads/">clique aqui!</a></p>						
+					</section>
+
+					<section>
+						<img src="imagens/ss-02.png" style="background: none; border: none; box-shadow: none">
+						<p>Faça o download da última versão do python (atualmente é a versão 3.8.3) para seu sistema operacional.</p>
+					</section>
+
+					<section>
+						<h3>Instalando o Python</h3>
+						<img src="imagens/ss-03.png" style="background: none; border: none; box-shadow: none">
+						<p>Após o download concluído, abra a pasta onde o arquivo foi salvo e clique duas vezes para iniciar a instalação.</p>						
+					</section>
+
+					<section>						
+						<img src="imagens/ss-04.png" style="background: none; border: none; box-shadow: none">
+						<p>Marque a opção de incluir o Python ao <strong>PATH</strong>.</p>					
+						<p>Clique em <strong>Install Now</strong>.</p>
+					</section>
+
+					<section>						
+						<img src="imagens/ss-05.png" style="background: none; border: none; box-shadow: none">						
+					</section>
+
+					<section>						
+						<img src="imagens/ss-06.png" style="background: none; border: none; box-shadow: none">						
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Criando e executando o primeiro código em Python</h2>						
+						<br>
+						<a href="#" class="navigate-down"></a>
+					</section>
+
+					<section>
+						<p>Para evitar trabalhar no terminal, podemos abrir o IDLE que já vem junto com o python</p>
+						<p>Acesse a pasta do Python em seu computador ou pesquise por <em>IDLE</em></p>
+						<small>É uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado">IDE</a> bem simples, mas que nesse início ajuda a visualizar melhor o código.</small>
+					</section>
+
+					<section data-auto-animate>
+						<h3 data-id="code-title">Vc vai programar agora!</h3>
+						<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+							print('Olá, Mundo')
+							Olá, Mundo
+
+							2+5
+							7
+
+							var = 'Eric'
+
+							print('Olá, '+var)
+							Olá, Eric
+						</code></pre>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Baixando o Script Anais-Anpuh</h2>
+						<p>Acesse o repositório no Github: <a href="github.com/ericbrasiln/"> github.com/ericbrasiln/</a></p>
+						<a href="#" class="navigate-down"></a>
+					</section>
+
+					<section>
+						<img src="imagens/ss-07.png" style="background: none; border: none; box-shadow: none">
+						<ul>
+							<li>Clique em repositórios e depois no repositório <a href="https://github.com/ericbrasiln/Anais-Anpuh">Anais-Anpuh</a>;</li>
+							<li>Faça download da pasta zipada.</li>
+						</ul>
+					</section>
+
+					<section>
+						<img src="imagens/ss-08.png" style="background: none; border: none; box-shadow: none">
+						<ul>
+							<li>Descompacte a pasta</a>;</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Instalando os pacotes e bibliotecas necessárias</h2>
+						<p>Abra o terminal e rode os seguitnes comandos:</p>
+						<a href="#" class="navigate-down"></a>
+					</section>
+
+					<section>								
+						<ul>
+							<li>pip install bs4</li>
+    						<li>pip install pandas==1.0.1</li>
+    						<li>pip install requests</li>
+    						<li>pip install lxml</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Entendendo o código.</h2>
+				</section>
+
+				<section>
+					<h2>Rodando o script</h2>
+					<p>Botão dirieto no arquivo <strong>script-anais-anpuh.py</strong> e escolha 'abrir com IDLE'.</p>
+				</section>				
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- Feito a partir do <a href="https://revealjs.com/">Reveal.js</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Código &amp; documentação</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
